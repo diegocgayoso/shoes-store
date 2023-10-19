@@ -1,0 +1,5 @@
+@mixin navigation-bar-icon-background($icon, $sufix) {
+  .navigation-bar .icon {
+    background-image: background-image-icon($icon, $sufix);
+  }
+}

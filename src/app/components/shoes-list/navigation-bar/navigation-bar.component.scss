@@ -1,0 +1,27 @@
+@use "/src/app/styles/mixins.scss";
+@use "/src/app/styles/variables.scss";
+.navigation-bar {
+  background-color: variables.$cl-prima;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  button {
+    background: none;
+    border: none;
+    svg {
+      &:hover {
+        circle {
+          stroke: variables.$cl-active;
+        }
+      }
+      &:hover {
+        path {
+          fill: variables.$cl-active;
+        }
+      }
+    }
+  }
+}

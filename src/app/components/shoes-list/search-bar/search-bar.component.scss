@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  flex: 5;
+  padding: 2rem 1rem;
+}
+.search {
+  width: 100%;
+  input {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 700;
+  }
+}

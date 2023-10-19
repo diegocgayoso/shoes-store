@@ -1,0 +1,23 @@
+@use "/src/app/styles/variables.scss";
+.card {
+  width:160px;
+  background: variables.$cl-tercy;
+  padding: .5rem;
+  position: relative;
+  border-radius: .9rem;
+  i{
+    position: absolute;
+  }
+  img {
+    width: 100%;
+  }
+  p{
+    margin: .5rem 0;
+  }
+  .brand{
+    font-weight: 900;
+  }
+  .product {
+    color: variables.$cl-secon;
+  }
+}

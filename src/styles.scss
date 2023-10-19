@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@use "./app/styles/variables.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Montserrat', sans-serif;
+}

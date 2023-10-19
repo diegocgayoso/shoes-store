@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  align-items: center;
+  button {
+    @extend header;
+    justify-content: center;
+    flex: 1;
+    background: none;
+    border: none;
+  }
+}
